@@ -1,0 +1,82 @@
+=======Start=======
+nadm_2059
+Sun Mar 16 18:26:25 PDT 2025
+My machine has this many processors
+12
+Generating 1000000 random numbers
+Starting system sort
+
+real	0m0.232s
+user	0m0.656s
+sys	0m0.162s
+Starting my sort
+Process 5 swap count: 971217665
+Process 2 swap count: 976742959
+Process 13 swap count: 976966028
+Process 8 swap count: 977330173
+Process 9 swap count: 976425915
+Process 10 swap count: 979002579
+Process 4 swap count: 976088520
+Process 15 swap count: 978027996
+Process 3 swap count: 969761427
+Process 11 swap count: 980145693
+Process 12 swap count: 975651365
+Process 7 swap count: 981261064
+Process 1 swap count: 972753185
+Process 0 swap count: 979335016
+Process 14 swap count: 970873828
+Process 6 swap count: 976267606
+Total swaps: 15617851019
+
+real	0m29.551s
+user	5m39.310s
+sys	0m0.551s
+-rw-r--r-- 1 nadm_2059 nadm_2059 7389212 Mar 16 18:26 systemsort.out
+-rw-r--r-- 1 nadm_2059 nadm_2059 7389212 Mar 16 18:27 mysort.out
+Comparing systemsort.out to mysort.out
+All done with diff compare
+Starting bonus sort with 37 segments
+Process 12 swap count: 180864297
+Process 11 swap count: 182710943
+Process 18 swap count: 181883073
+Process 4 swap count: 182771683
+Process 25 swap count: 182417305
+Process 3 swap count: 182027272
+Process 29 swap count: 183228190
+Process 35 swap count: 184181337
+Process 32 swap count: 183170833
+Process 21 swap count: 182516299
+Process 10 swap count: 182297793
+Process 9 swap count: 183640085
+Process 13 swap count: 182792859
+Process 20 swap count: 183195331
+Process 1 swap count: 183362251
+Process 6 swap count: 182776380
+Process 7 swap count: 181896425
+Process 33 swap count: 181971874
+Process 5 swap count: 183211027
+Process 0 swap count: 182454853
+Process 27 swap count: 182287986
+Process 34 swap count: 182696446
+Process 16 swap count: 183669915
+Process 31 swap count: 182745332
+Process 23 swap count: 181917907
+Process 24 swap count: 182387968
+Process 22 swap count: 182474124
+Process 28 swap count: 182438127
+Process 15 swap count: 181697819
+Process 17 swap count: 182452080
+Process 14 swap count: 182188689
+Process 19 swap count: 183013735
+Process 26 swap count: 183480149
+Process 2 swap count: 181342252
+Process 8 swap count: 181834178
+Process 36 swap count: 182156001
+Process 30 swap count: 183198223
+Total swaps: 6755351041
+
+real	0m14.688s
+user	2m41.577s
+sys	0m0.560s
+=======End=======
+Sun Mar 16 18:27:17 PDT 2025

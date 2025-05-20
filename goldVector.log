@@ -1,0 +1,75 @@
+--- section 1 (here are my cans)
+Monster:24
+Baked Beans:20
+----- section 2 (inital vectors)------
+Stats on vector v1
+Size:0
+Contents:
+
+Stats on vector v2
+Size:10
+Contents:0,0,0,0,0,0,0,0,0,0,
+
+Stats on vector v3
+Size:4
+Contents:20,20,20,20,
+
+Stats on vector cans
+Size:2
+Contents:Monster:24,Baked Beans:20,
+
+----- section 3 (push_back)-----
+Stats on vector v1
+Size:3
+Contents:0,2,4,
+
+Stats on vector v2
+Size:13
+Contents:0,0,0,0,0,0,0,0,0,0,0,2,4,
+
+Stats on vector v3
+Size:7
+Contents:20,20,20,20,42,42,42,
+
+----- section 4 (pop_back)------
+Stats on vector v1
+Size:1
+Contents:0,
+
+Stats on vector v2
+Size:11
+Contents:0,0,0,0,0,0,0,0,0,0,0,
+
+Stats on vector v3
+Size:5
+Contents:20,20,20,20,42,
+
+----- section 5 (capacity)------
+v1 Capacity:4
+v2 Capacity:20
+v3 Capacity:8
+cans Capacity:2
+
+----- all vectors are cleared------
+Stats on vector v1
+Size:0
+Contents:
+
+Stats on vector v2
+Size:0
+Contents:
+
+Stats on vector v3
+Size:0
+Contents:
+
+testing [ ] - should not throw exception
+1,2,3,4,5,6,7,8,9,10,0,
+
+v4.size():10
+v4.size():7
+v4.front():1
+v4.back():7
+
+testing at( ) - should throw out_of_range exception
+1,2,3,4,5,6,7,terminate called after throwing an instance of 'char const*'
